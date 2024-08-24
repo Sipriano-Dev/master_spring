@@ -13,6 +13,7 @@ public class Example6 {
         Vehicle veh = context.getBean(Vehicle.class);
         System.out.println("Vehicle name from Spring Context is: " + veh.getName());
         veh.printHello();
+        context.close();
 
     }
 
