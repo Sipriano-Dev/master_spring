@@ -1,7 +1,5 @@
 package com.example.main;
 
-import com.example.beans.Person;
-import com.example.beans.Vehicle;
 import com.example.config.ProjectConfig;
 import com.example.services.VehicleServices;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
