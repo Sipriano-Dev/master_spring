@@ -27,7 +27,13 @@ public class Vehicle {
     public void initialize() {
         this.name = "honda";
     }
-    
+
+    @PreDestroy
+    //You set commands to execute just before spring destroy the obj
+    public void destroy() {
+        System.out.println(
+                "Destroying Vehicle Bean");
+    }
 
     public void printHello(){
         System.out.println(

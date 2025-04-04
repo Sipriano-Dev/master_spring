@@ -13,6 +13,9 @@ public class Example6 {
         System.out.println("Vehicle name from Spring Context is: " + veh.getName());
         veh.printHello();
 
+        //Close ApplicationContext and destroy all the beans inside Bean factory in IOC Container
+        context.close();
+
     }
 
 }
